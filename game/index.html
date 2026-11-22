@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Palmera Heat: Vice Empire</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #07060d; }
+  #game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  #status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+</style>
+</head>
+<body>
+<canvas id="game" aria-label="Palmera Heat: Vice Empire — top-down open-world crime game. WASD drive and walk, E enter or exit vehicles and boats, mouse aim, click or Space to shoot, F punch, Tab district standing, P or Esc pause."></canvas>
+<p id="status" role="status" aria-live="polite"></p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
